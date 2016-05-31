@@ -47,21 +47,45 @@ namespace COMP123_Template_Lesson4
 
             //  Console.WriteLine(person.SaysHello("Tom") + person.ShowAge(50));
 
-            Person mark = new Person(30);
-            mark.Name = "Mark";
-            mark.ShowAge();
+            /*  Person mark = new Person(30);
+              mark.Name = "Mark";
+              mark.ShowAge();
+
+              Console.WriteLine();
+
+              Person marry = new Person("Marry", 23);
+              marry.SaysHello();
+              marry.ShowAge();
+
+              Person tanya = new Person();
+              tanya.Name = "Tanya";
+              tanya.Age = 28;
+              tanya.SaysHello();
+              tanya.ShowAge();*/
+
+
+
+            Student tommy = new Student("tommy", 30, "300872772");
+           // tommy.Age = 20;
+           // tommy.Name = "Mamun";
+            tommy.SaysHello();
 
             Console.WriteLine();
 
-            Person marry = new Person("Marry", 23);
-            marry.SaysHello();
-            marry.ShowAge();
+            tommy.Studies();
 
-            Person tanya = new Person();
-            tanya.Name = "Tanya";
-            tanya.Age = 28;
-            tanya.SaysHello();
-            tanya.ShowAge();
+            Console.WriteLine();
+
+
+            //create instance for teacher class
+
+            Teachers tomt = new Teachers("tom", 47, "23232");
+
+            tomt.SaysHello();
+
+            Console.WriteLine();
+
+            tomt.Teacher();
 
         }
 

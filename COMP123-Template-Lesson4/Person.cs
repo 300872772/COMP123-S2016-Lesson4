@@ -40,7 +40,7 @@ namespace COMP123_Template_Lesson4
 
             set
             {
-                Console.WriteLine("_name value set");
+              //  Console.WriteLine("_name value set");
                 this._name = value;
             }
         }
